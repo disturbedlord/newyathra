@@ -1,0 +1,142 @@
+.floating {  
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    width: 50%;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+.counter
+{
+    background-color : white;
+    text-align: center;
+    box-shadow: 0 4px 80px 0 rgba(0, 0, 0, 0.07), 0 6px 100px 0 rgba(0, 0, 0, 0.02);
+
+}
+.employees,.customer,.design,.order
+{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.counter-count
+{
+    font-size: 18px;
+    background-color: #00b3e7;
+    border-radius: 50%;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    line-height: 92px;
+    width: 92px;
+    height: 92px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+}
+
+.employee-p,.customer-p,.order-p,.design-p
+{
+    font-size: 24px;
+    color: #000000;
+    line-height: 34px;
+}
+
+.text_achievements {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.columns_loc {
+    position: relative;
+    top: 100px;
+    padding-bottom: 120px;
+}
+
+.amazing_tour {
+    padding: 10% 50px;
+}
+
+.tour_text {
+    position: relative;
+    top: 100px;
+}
+
+.section-break-5 {
+   margin: 0 150px 50px 150px;
+    background-color: gray;
+    
+}
+  
+.most {
+    padding: 0 0 40px 0;
+}
+.book {
+    padding: 10%;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+}
+
+.pop {
+    margin: 1%;
+}
+
+.popular {
+    padding: 5%;
+}
+
+.ser_div {
+    margin: 5% 10%;
+    padding: 2%;
+}
+
+.service {
+    margin: 0 0 10% 0;
+}
+
+.news {
+    height: 740px;
+    color: white;
+}
+
+.news_con {
+    padding: 10% 10% 5% 10%;
+}
+
+.container1 {
+    padding: 20px;
+    position: relative;
+    left: 22%;
+}
+  
+  input[type=text], input[type=submit] {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+ 
+  .aa {
+      margin: 0 20px;
+  }
+
+  .comment {
+      margin: 8%;
+  }
+
+  .checked {
+    color: orange;
+  }
